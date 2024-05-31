@@ -124,3 +124,26 @@ console.log(typeof myObj)
 console.log(typeof heros)
 
 console.log(anotherId)
+
+//**********************Memory***************************** */
+
+// Stack(Primitive) | Heap (Non Primitive)
+
+let value1 = "India"
+let value2 = value1
+ value2 = "Russia"
+console.log(value1);
+console.log(value2);
+
+let obj1 ={
+    name:"uday",
+    email:"udaydhanokar@gmail.com"
+}
+
+ obj2 = obj1;
+ obj2.email="udaydhanokar38@gmail.com";
+ 
+ console.log(obj1)
+ console.log(obj2)
+
+ 
