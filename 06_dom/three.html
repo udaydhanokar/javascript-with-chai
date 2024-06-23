@@ -18,10 +18,10 @@
     console.log(div)
     div.className ="main"
     div.id = Math.floor(Math.random()*10+1)
-    div.setAttribut("title","generated title")
+    div.setAttribute("title","generated title")
     div.style.backgroundColor="green"
     div.style.padding="12px"
-    <!-- div.innerText = "Chai Aur Code" -->
+    //  div.innerText = "Chai Aur Code" 
     const AddText = document.createTextNode("Chai Aur Code")
     div.appendChild(AddText)
     document.body.appendChild(div)
