@@ -20,7 +20,7 @@
 <script>
     
     function callLang(languange){
-        const li = document.querySelector('li')
+        const li = document.createElement('li')
         li.innerHTML= `${languange}`
         document.querySelector('.main').appendChild(li);
     }
