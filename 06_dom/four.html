@@ -18,12 +18,21 @@
 
 </body>
 <script>
-    
-    function callLang(languange){
+    console.log("hi")
+    function addLang(languange){
         const li = document.createElement('li')
         li.innerHTML= `${languange}`
         document.querySelector('.main').appendChild(li);
     }
     callLang("python")
+
+    function addOptiLang(langName){
+        const li = document.createElement('li')
+        const addText = document.createTextNode(`${langName}`)
+        li.appendChild(addText)
+        document.querySelector('.main').appendChild(li)
+
+    }
+    addOptiLang('Java')
 </script>
 </html>
