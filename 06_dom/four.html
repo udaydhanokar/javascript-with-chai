@@ -39,10 +39,13 @@
 console.log('edit')
 const secodLang=document.querySelector("li","nth-child(2)")
 
-//  secodLang.innerHTML="C"4
+//  secodLang.innerHTML="C"
 
-const addTextt = document.createTextNode("C++")
-secodLang.replaceWith(addTextt)
+const newList = document.createElement('li')
+newList.textContent ="Mojo"
+secodLang.replaceWith(newList)
+
+
 
 
 
